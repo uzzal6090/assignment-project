@@ -1,0 +1,124 @@
+
+
+* {
+
+    padding: 0;
+    margin: 0;
+}
+    .common-btn {
+            background-color:#1D4ED8;
+            padding:18px 15px;
+            margin: 5px 8%;
+            color: #FFFFFF;
+            width: 170px;
+            border-radius: 7px;
+            font-weight: bold;
+            font-size: 17px;
+
+    }
+
+    /*========= this is navbar design start ======= */
+
+.nav-container {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 7%;
+    margin: 8px;
+    align-items: center;
+    background-color:#FFFFFF;
+   
+
+}
+
+.nav-links ul {
+
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        gap: 20px;
+
+}
+
+.nav-links ul li {
+
+        color:#575757;
+        font-size: 20px;
+}
+
+
+ /*========= this is navbar design end ======= */
+
+
+
+ /*======= this is hero section design==== */
+
+
+ /* Hero Section */
+.hero {
+    min-height: 100vh;
+    background:
+        linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+        url("../images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    padding: 0 20px;
+}
+
+/* Hero Content */
+.hero-content {
+    max-width: 800px;
+}
+
+/* Heading */
+.hero h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero h1 em {
+    font-style: italic;
+    color: #f9b233;
+}
+
+/* Paragraph */
+.hero p {
+    color: #ddd;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 35px;
+}
+
+/* Common Button */
+.btn {
+    display: inline-block;
+    padding: 14px 32px;
+    background: #f9b233;
+    color: #111;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ffcc4d;
+    transform: translateY(-3px);
+}
+
+
+
+
+
+
+
