@@ -7,10 +7,11 @@
   padding: 10px;
   margin: 5px 8%;
   color: #ffffff;
-  width: 150px;
+  width: 180px;
   border-radius: 7px;
   font-weight: bold;
   font-size: 17px;
+  cursor: pointer;
 }
 
 /*========= this is navbar design start ======= */
@@ -86,6 +87,7 @@
 .speaker-section-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  flex-wrap: wrap;
   align-items: center;
   padding: 6px 5%;
   column-gap: 35px;
@@ -255,12 +257,62 @@
   background-color: #f0f0f0;
 }
 
-/* Responsive: stack on smaller screens */
-@media (max-width: 768px) {
-  .pricing-card.featured {
-    transform: scale(1);
-  }
-  .pricing-card.featured:hover {
-    transform: translateY(-6px);
-  }
+/* ===== HACKATHON SECTION WRAPPER ===== */
+.hackathon-section {
+    background-color: #1a1a2e;  
+    padding: 70px 5%;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 12px;         
 }
+
+.hackathon-content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.hackathon-heading {
+    font-size: 34px;
+    font-weight: bold;
+    margin: 0 0 16px 0;
+}
+
+.hackathon-subtitle {
+    font-size: 16px;
+    color: #cfcfe8;
+    line-height: 1.6;
+    margin: 0 0 40px 0;
+}
+
+
+.hackathon-stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.stat-box {
+    min-width: 130px;
+}
+
+.stat-number {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffd166;   /* accent color to make numbers pop */
+    margin: 0 0 6px 0;
+}
+
+.stat-label {
+    font-size: 14px;
+    color: #cfcfe8;
+    margin: 0;
+}
+
+
+.common-btn:hover {
+    background-color: gray;
+    transform: translateY(-3px);
+}
+
