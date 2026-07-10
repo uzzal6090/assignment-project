@@ -1,124 +1,266 @@
-
-
 * {
-
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
-    .common-btn {
-            background-color:#1D4ED8;
-            padding:18px 15px;
-            margin: 5px 8%;
-            color: #FFFFFF;
-            width: 170px;
-            border-radius: 7px;
-            font-weight: bold;
-            font-size: 17px;
+.common-btn {
+  background-color: #1d4ed8;
+  padding: 10px;
+  margin: 5px 8%;
+  color: #ffffff;
+  width: 150px;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 17px;
+}
 
-    }
-
-    /*========= this is navbar design start ======= */
+/*========= this is navbar design start ======= */
 
 .nav-container {
-
-    display: flex;
-    justify-content: space-between;
-    padding: 4px 7%;
-    margin: 8px;
-    align-items: center;
-    background-color:#FFFFFF;
-   
-
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 7%;
+  margin: 8px;
+  align-items: center;
+  background-color: #ffffff;
 }
 
 .nav-links ul {
-
-        display: flex;
-        justify-content: space-between;
-        list-style: none;
-        gap: 20px;
-
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 20px;
 }
 
 .nav-links ul li {
-
-        color:#575757;
-        font-size: 20px;
+  color: #575757;
+  font-size: 20px;
 }
 
+/*========= this is navbar design end ======= */
 
- /*========= this is navbar design end ======= */
+/*======= this is hero section design==== */
 
-
-
- /*======= this is hero section design==== */
-
-
- /* Hero Section */
 .hero {
-    min-height: 100vh;
-    background:
-        linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
-        url("../images/banner.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  min-height: 100vh;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("../images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 
-    padding: 0 20px;
+  padding: 0 20px;
 }
 
-/* Hero Content */
 .hero-content {
-    max-width: 800px;
+  max-width: 800px;
 }
 
-/* Heading */
 .hero h1 {
-    font-size: 4rem;
-    font-weight: 700;
-    color: #fff;
-    line-height: 1.2;
-    margin-bottom: 20px;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.2;
+  margin-bottom: 20px;
 }
 
 .hero h1 em {
-    font-style: italic;
-    color: #f9b233;
+  font-style: italic;
+  color: #f9b233;
 }
 
-/* Paragraph */
 .hero p {
-    color: #ddd;
-    font-size: 1.2rem;
-    line-height: 1.8;
-    margin-bottom: 35px;
+  color: #ddd;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 35px;
 }
 
-/* Common Button */
-.btn {
-    display: inline-block;
-    padding: 14px 32px;
-    background: #f9b233;
-    color: #111;
-    text-decoration: none;
-    font-weight: 600;
-    border-radius: 8px;
-    transition: 0.3s;
+/* ========= this is the meet the speaker section design ======= */
+
+.speaker-section-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  padding: 6px 5%;
+  column-gap: 35px;
+  row-gap: 28px;
 }
 
-.btn:hover {
-    background: #ffcc4d;
-    transform: translateY(-3px);
+.speaker-section h2 {
+  text-align: center;
+  padding: 50px;
+  font-size: 35px;
+  font-weight: bold;
 }
 
+.speaker-card {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 17px 5px;
+}
 
+.speaker-card h6 {
+  color: #2563eb;
+  padding: 6px 14px;
+}
 
+.speaker-card h4 {
+  color: #0d1b2a;
+  padding: 6px 14px;
+  font-weight: bold;
+}
 
+.speaker-card p {
+  color: #575757;
+  padding: 6px 14px;
+}
 
+/* ======this is the pricing section design =======*/
+.pricing-section {
+  padding: 60px 5%;
+}
 
+.pricing-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
 
+.pricing-heading {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+
+.pricing-subtitle {
+  font-size: 16px;
+  color: #666;
+  margin: 0;
+}
+
+.pricing-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 24px;
+}
+
+.pricing-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 320px;
+  padding: 30px 24px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.pricing-card:hover {
+  transform: translateY(-6px);
+}
+
+/* Featured / highlighted middle card */
+.pricing-card.featured {
+  background-color: #4f46e5;
+  color: #ffffff;
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(79, 70, 229, 0.3);
+}
+
+.pricing-card.featured:hover {
+  transform: scale(1.05) translateY(-12px);
+}
+
+.plan-name {
+ 
+  font-size: 16px;
+  font-weight: bold;
+  color: #666;
+  margin: 0;
+}
+
+.featured .plan-name {
+  color: #e0e0ff;
+}
+
+.plan-price {
+ 
+  font-size: 36px;
+  font-weight: bold;
+  margin: 8px 0 0 0;
+}
+
+.plan-period {
+  
+  font-size: 14px;
+  color: #999;
+  margin: 4px 0 24px 0;
+}
+
+.featured .plan-period {
+  color: #d0d0ff;
+}
+
+.plan-list {
+  padding: 0;
+  margin: 0 0 24px 0;
+  flex-grow: 1; 
+}
+
+.plan-list li {
+  padding: 10px 0;
+  font-size: 14px;
+  color: #444;
+}
+
+.featured .plan-list li {
+ 
+  color: #f0f0ff;
+}
+
+.plan-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  color: #333;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.plan-btn:hover {
+  background-color: #e0e0e0;
+}
+
+.plan-btn.primary {
+  background-color: #ffffff;
+  color: #4f46e5;
+}
+
+.plan-btn.primary:hover {
+  background-color: #f0f0f0;
+}
+
+/* Responsive: stack on smaller screens */
+@media (max-width: 768px) {
+  .pricing-card.featured {
+    transform: scale(1);
+  }
+  .pricing-card.featured:hover {
+    transform: translateY(-6px);
+  }
+}
