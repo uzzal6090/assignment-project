@@ -23,6 +23,7 @@
   margin: 8px;
   align-items: center;
   background-color: #ffffff;
+  
 }
 
 .nav-links ul {
@@ -35,7 +36,23 @@
 .nav-links ul li {
   color: #575757;
   font-size: 20px;
+  cursor: pointer;
+
+ 
 }
+
+.nav-links ul li a{
+
+  text-decoration: none;
+ 
+}
+
+.nav-links ul li a:hover {
+
+    color:tomato;
+}
+
+
 
 /*========= this is navbar design end ======= */
 
@@ -49,12 +66,10 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-
   padding: 0 20px;
 }
 
@@ -127,6 +142,7 @@
 }
 
 /* ======this is the pricing section design =======*/
+
 .pricing-section {
   padding: 60px 5%;
 }
@@ -310,59 +326,58 @@
   transform: translateY(-3px);
 }
 
-/*======== This is here start footer section design======== */
-/* Footer */
+/*======== This is here start Footer section design======== */
+
 .footer {
-    background: #120202;
-    color: #fff;
-    padding: 30px 10%;
+  background: #120202;
+  color: #fff;
+  padding: 30px 10%;
 }
 
 .footer-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
-
 .footer-social {
-    display: flex;
-    gap: 18px;
+  display: flex;
+  gap: 18px;
 }
 
 .footer-social a {
-    width: 45px;
-    height: 45px;
-    background: #1f1f1f;
-    color: #fff;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    font-size: 20px;
-    transition: 0.3s ease;
+  width: 45px;
+  height: 45px;
+  background: #1f1f1f;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.3s ease;
 }
 
 .footer-social a:hover {
-    background: #4CAF50;
-    transform: translateY(-4px);
+  background: #4caf50;
+  transform: translateY(-4px);
 }
 
 .footer hr {
-    border: none;
-    height: 1px;
-    background: #333;
-    margin: 25px 0;
+  border: none;
+  height: 1px;
+  background: #333;
+  margin: 25px 0;
 }
 
 .footer-bottom {
-    text-align: center;
+  text-align: center;
 }
 
 .footer-bottom p {
-    color: #bbb;
-    font-size: 0.95rem;
+  color: #bbb;
+  font-size: 0.95rem;
 }
